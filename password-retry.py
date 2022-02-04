@@ -3,7 +3,7 @@ i = 0
 while i < 3:
 	word = input('請輸入密碼:')
 	if word == password:
-		print('登入成功')
+		print('登入成功恭喜')
 		i = 2
 	else:
 		print('密碼錯誤，您還有',2 - i ,'次機會')
